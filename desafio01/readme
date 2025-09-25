@@ -64,27 +64,6 @@ Para cada estudante, o sistema imprime:
 ---
 
 
-## Exemplo de Saída
-
-```
-==============
-Nome: Eduarda Silva
-Curso: Frontend
-Média das notas: 8.17
-Mensagem: Exploradora confiante.
-==============
-Nome: Gloria Maria
-Curso: Backend
-Média das notas: 6.00
-Mensagem: Brilha como aprendiz.
-==============
-Nome: Ana Luiza
-Curso: Ciência de Dados
-Média das notas: 4.17
-Mensagem: Desbravando a programação.
-```
-
----
 
 ##  Aprendizados
 
