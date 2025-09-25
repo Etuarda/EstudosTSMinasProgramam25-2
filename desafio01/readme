@@ -1,0 +1,94 @@
+# Exercício – Cadastro de Estudantes e Suas Aprendizagens
+
+Este projeto é um mini sistema em **TypeScript/JavaScript** desenvolvido como parte do curso **Minas Programam**.
+O objetivo é praticar conceitos de **objetos literais, arrays, funções, condicionais e switch/case**.
+
+---
+
+## Objetivo
+
+Criar um sistema que:
+
+* Registre estudantes e suas notas;
+* Relacione cada estudante a um curso;
+* Calcule a média das notas;
+* Retorne mensagens personalizadas de acordo com o desempenho.
+
+---
+
+##  Estrutura do Código
+
+### 1. **Estudantes**
+
+São representados por **objetos literais** com as propriedades:
+
+* `nome` → nome do estudante.
+* `cursoId` → número identificador do curso.
+* `notas` → array com 3 notas.
+* `mensagem` → mensagem de aprendizado (preenchida pelo sistema).
+
+### 2. **Cursos**
+
+Lista de cursos em um array de objetos, cada um com:
+
+* `id` → número identificador.
+* `nome` → nome do curso.
+
+### 3. **Funções criadas**
+
+* **Declarada**:
+  `mediaEstudante(estudante)` → recebe um estudante e retorna a média das 3 notas (sem usar loops).
+
+* **Função Anônima**:
+  `estiloAprendizado(estudante)` → retorna mensagens baseadas na média:
+
+  * ≥ 7 → `"Exploradora confiante."`
+  * ≥ 5 e < 7 → `"Brilha como aprendiz."`
+  * < 5 → `"Desbravando a programação."`
+
+* **Arrow Function**:
+  Versão da função anterior com sintaxe de arrow.
+
+* **Switch/Case**:
+  `nomeDoCursoPorId(cursoId)` → retorna o nome do curso com base no ID.
+
+### 4. **Exibição Final**
+
+Para cada estudante, o sistema imprime:
+
+* Nome;
+* Curso;
+* Média das notas;
+* Mensagem.
+
+---
+
+
+## Exemplo de Saída
+
+```
+==============
+Nome: Eduarda Silva
+Curso: Frontend
+Média das notas: 8.17
+Mensagem: Exploradora confiante.
+==============
+Nome: João Pedro
+Curso: Backend
+Média das notas: 6.00
+Mensagem: Brilha como aprendiz.
+==============
+Nome: Ana Luiza
+Curso: Ciência de Dados
+Média das notas: 4.17
+Mensagem: Desbravando a programação.
+```
+
+---
+
+##  Aprendizados
+
+* Diferença entre **função declarada, função anônima e arrow function**.
+* Uso de **switch/case** para mapear valores.
+* Manipulação de arrays e objetos literais.
+* Boas práticas na organização de código em TypeScript/JavaScript.
